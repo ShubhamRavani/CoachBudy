@@ -1,7 +1,13 @@
 import React from "react";
 import html from "../../images/pic01.jpg";
+import { useNavigate } from 'react-router-dom';
 
-export default function Courses () {
+export default function Courses() {
+    
+  const navigate = useNavigate();
+  const courseDetNavigate = () => {
+    navigate("../CoursesDetail")
+  }
 
     return(
         <div>
@@ -23,9 +29,9 @@ export default function Courses () {
                             <p className="card-text">
                             The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser.
                             </p>
-                            <a href="#" className="btn btn-primary">
-                            Course Details
-                            </a>
+                            <button className="btn btn-primary" onClick={courseDetNavigate}>
+                                Course Details
+                            </button>
                         </div>
                         </div>
                     </div>
@@ -42,9 +48,9 @@ export default function Courses () {
                             <p className="card-text">
                             Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.
                             </p>
-                            <a href="#" className="btn btn-primary">
-                            Course Details
-                            </a>
+                            <button className="btn btn-primary" onClick={courseDetNavigate}>
+                                Course Details
+                            </button>
                         </div>
                         </div>
                     </div>
@@ -61,9 +67,10 @@ export default function Courses () {
                             <p className="card-text">
                             JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions.
                             </p>
-                            <a href="#" className="btn btn-primary">
-                            Course Details
-                            </a>
+                           
+                            <button className="btn btn-primary" onClick={courseDetNavigate}>
+                                Course Details
+                            </button>
                         </div>
                         </div>
                     </div>
@@ -80,9 +87,9 @@ export default function Courses () {
                             <p className="card-text">
                            ReactJS is a free and open-source front-end JavaScript library for building user interfaces based on UI components.
                             </p>
-                            <a href="#" className="btn btn-primary">
-                            Course Details
-                            </a>
+                            <button className="btn btn-primary" onClick={courseDetNavigate}>
+                                Course Details
+                            </button>
                         </div>
                         </div>
                     </div>

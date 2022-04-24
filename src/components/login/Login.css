@@ -1,0 +1,153 @@
+.Signup_main {
+    width: 90%;
+    margin: 15px auto;
+  }
+  
+  .Signup_wrapper {
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .Signup_left {
+    flex: 1;
+    background: #ebf5fb;
+  }
+  
+  .Signup_right {
+    flex: 1;
+  }
+  
+  .form_main {
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  .Name_form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .FOrm_icon {
+    margin-right: 10px;
+  }
+  .Form_heading {
+    width: 90%;
+    margin: 15px auto;
+  }
+  .signUp_btn {
+    margin: 15px auto;
+    text-align: center;
+  }
+  .sin_btn {
+    border-radius: 19px 19px 19px 19px;
+    text-align: center;
+  }
+  .Form_heading p {
+    color: #8e44ad;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .input_field_signup {
+    border-radius: 19px 19px 19px 19px;
+    margin: 15px auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  }
+  .Forgot_password {
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .loading {
+    display: flex;
+    margin: 10px auto;
+    width: 100%;
+  }
+  .loading .dot {
+    position: relative;
+    width: 1em;
+    height: 1em;
+    margin: 0.8em;
+    border-radius: 50%;
+  }
+  .loading .dot::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    border-radius: inherit;
+    animation: wave 2s ease-out infinite;
+  }
+  .loading .dot:nth-child(1) {
+    background: #218FF2;
+  }
+  .loading .dot:nth-child(1)::before {
+    animation-delay: 0.2s;
+  }
+  .loading .dot:nth-child(2) {
+    background: #8E44AD;
+  }
+  .loading .dot:nth-child(2)::before {
+    animation-delay: 0.4s;
+  }
+  .loading .dot:nth-child(3) {
+    background: #4682b4;
+  }
+  .loading .dot:nth-child(3)::before {
+    animation-delay: 0.6s;
+  }
+  .loading .dot:nth-child(4) {
+    background: #0f52ba;
+  }
+  .loading .dot:nth-child(4)::before {
+    animation-delay: 0.8s;
+  }
+  .loading .dot:nth-child(5) {
+    background: #000080;
+  }
+  .loading .dot:nth-child(5)::before {
+    animation-delay: 1s;
+  }
+  @keyframes wave {
+    50%, 75% {
+      transform: scale(2.5);
+   }
+    80%, 100% {
+      opacity: 0;
+   }
+  }
+  
+  
+  @media screen and (max-width: 880px) {
+    .Signup_main {
+      width: 100%;
+      margin: 15px auto;
+    }
+    .Signup_wrapper {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      box-shadow: none;
+    }
+  
+    .form_main {
+      margin: 15px auto;
+      width: 70%;
+      text-align: center;
+    }
+    .Signup_left {
+      flex: 1;
+      display: none;
+      background: #ebf5fb;
+      clip-path: polygon(0 0, 100% 0%, 91% 99%, 0% 100%);
+    }
+    .Form_heading {
+      width: 90%;
+      margin: 15px auto;
+    }
+  }
+  

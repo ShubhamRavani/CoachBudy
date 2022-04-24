@@ -1,0 +1,80 @@
+.coaching{
+	width: 100%;
+}
+
+.coaching-title {
+text-align: center;
+width: 100%;
+}
+.title {
+color: #1c1b1b;
+margin-bottom: 15px;
+padding: 0;
+z-index: 10;
+text-transform: capitalize;
+}
+
+.coaching-content {
+background-color: #fff;
+text-align: center;
+margin-top: 30px;
+width: 100%;
+display: flex;
+}
+
+.coaching-content-left {
+flex: 1;
+width: 100%;
+
+}
+.left_img{
+height: 80%;
+object-fit: cover;
+width: 100%;
+}
+.form_main{
+width: 70%;
+margin: 0 auto;
+}
+.coaching-content-right {
+flex: 1;
+width: 100%;
+
+
+}
+
+.coaching-content-right .detail-info {
+font-size: 22px;
+font-weight: 500;
+-webkit-transition: all 0.5s;
+-o-transition: all 0.5s;
+transition: all 0.5s;
+}
+
+.coaching-content-right .detail {
+margin-top: 15px;
+border-bottom: 1px solid #ddd;
+margin-bottom: 20px;
+padding-bottom: 20px;
+-webkit-transition: all 0.5s;
+-o-transition: all 0.5s;
+transition: all 0.5s;
+}
+
+.coaching-content-right .detail p {
+font-size: 14px;
+margin-bottom: 0;
+}
+
+
+@media screen and (max-width: 880px) {
+.coaching-content {
+	background-color: #fff;
+	text-align: center;
+	margin-top: 30px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+}

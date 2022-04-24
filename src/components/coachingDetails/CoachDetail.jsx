@@ -46,9 +46,9 @@ export default function CoachDetail() {
 
                             <div className="container">
                                 <div className="row">
-                                <h1 className="display-4">Teachers</h1>
+                                <h1 className="display-3">Teachers</h1>
                                 <div className="col-3">
-                                    <div className="card h-80" style={{ width: "10rem" }}>
+                                    <div className="card h-100" style={{ width: "10rem" }}>
                                     <img
                                         style={{ minHeight: "100px", maxHeight: "100px" }}
                                         src={teacher1}
@@ -64,7 +64,7 @@ export default function CoachDetail() {
                                     </div>
                                 </div>
                                 <div className="col-3">
-                                    <div className="card h-80" style={{ width: "10rem" }}>
+                                    <div className="card h-100" style={{ width: "10rem" }}>
                                     <img
                                         style={{ minHeight: "100px", maxHeight: "100px" }}
                                         src={teacher1}
@@ -79,23 +79,25 @@ export default function CoachDetail() {
                                     </div>
                                     </div>
                                 </div>
+                                <div className="text-center">
+                                    <button className="btn btn-primary" onClick={courseNavigate}>
+                                        Course
+                                    </button>
+                                </div>
                                 
                                
-                                </div>
                             </div>
-                               
-                            </div>
-                           </div>
                         </div>
-                        
+                               
+                    </div>
+                        </div>
                 </div>
-                
-                <div className="btns">
-                    <button onClick={courseNavigate}>
-                            Course
-                    </button>
-                 </div>
+                        
             </div>
+                
+                
+                
+        </div>
         </div>
     );
 }

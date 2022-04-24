@@ -8,7 +8,7 @@ export default function Courses () {
             <div className="container-fluid">
                 <div className="container">
                     <div className="row">
-                    <h1>Offered Courses By Us</h1>
+                    <h1>Offered Courses</h1>
                     <hr />
                     <div className="col" style={{ marginBottom: "2rem" }}>
                         <div class="card  h-100" style={{ width: "18rem" }}>
@@ -19,13 +19,12 @@ export default function Courses () {
                             alt="Course Thumbnail"
                         />
                         <div className="card-body">
-                            <h5 className="card-title">Card title</h5>
+                            <h5 className="card-title">HTML</h5>
                             <p className="card-text">
-                            Some quick example text to build on the card title and make up
-                            the bulk of the card's content.
+                            The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser.
                             </p>
                             <a href="#" className="btn btn-primary">
-                            Go somewhere
+                            Course Details
                             </a>
                         </div>
                         </div>
@@ -39,13 +38,12 @@ export default function Courses () {
                             alt="Course Thumbnail"
                         />
                         <div className="card-body">
-                            <h5 className="card-title">Card title</h5>
+                            <h5 className="card-title">CSS</h5>
                             <p className="card-text">
-                            Some quick example text to build on the card title and make up
-                            the bulk of the card's content.
+                            Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.
                             </p>
                             <a href="#" className="btn btn-primary">
-                            Go somewhere
+                            Course Details
                             </a>
                         </div>
                         </div>
@@ -59,13 +57,12 @@ export default function Courses () {
                             alt="Course Thumbnail"
                         />
                         <div className="card-body">
-                            <h5 className="card-title">Card title</h5>
+                            <h5 className="card-title">JavaScript</h5>
                             <p className="card-text">
-                            Some quick example text to build on the card title and make up
-                            the bulk of the card's content.
+                            JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions.
                             </p>
                             <a href="#" className="btn btn-primary">
-                            Go somewhere
+                            Course Details
                             </a>
                         </div>
                         </div>
@@ -79,13 +76,12 @@ export default function Courses () {
                             alt="Course Thumbnail"
                         />
                         <div className="card-body">
-                            <h5 className="card-title">Card title</h5>
+                            <h5 className="card-title">React.js</h5>
                             <p className="card-text">
-                            Some quick example text to build on the card title and make up
-                            the bulk of the card's content.
+                           ReactJS is a free and open-source front-end JavaScript library for building user interfaces based on UI components.
                             </p>
                             <a href="#" className="btn btn-primary">
-                            Go somewhere
+                            Course Details
                             </a>
                         </div>
                         </div>
